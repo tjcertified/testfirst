@@ -11,10 +11,19 @@
     <link rel="stylesheet" href="<?php echo URL; ?>public/css/style.css" />
     <!-- in case you wonder: That's the cool-kids-protocol-free way to load jQuery -->
     <script type="text/javascript" src="//code.jquery.com/jquery-2.0.3.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap-theme.min.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>   
     <script type="text/javascript" src="<?php echo URL; ?>public/js/application.js"></script>
 </head>
 <body>
 
+<div class="container">
     <div class="debug-helper-box">
         DEBUG HELPER: you are in the view: <?php echo $filename; ?>
     </div>
