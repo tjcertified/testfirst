@@ -20,7 +20,7 @@ ini_set("display_errors", 1);
  * if you are using a (different) port, then put this in here, like http://mydomain:8888/subfolder/
  * Note: The trailing slash is important!
  */
-define('URL', 'http://testfirst.local/');
+define('URL', 'http://yoururlhere');
 
 /**
  * Configuration for: Folders
@@ -90,11 +90,11 @@ define('COOKIE_DOMAIN', '.testfirst.local');
  * The password of the above user
  * define('DB_PASS', 'xxx');
  */
-define('DB_TYPE', 'mysql');
+define('DB_TYPE', 'yourdbtype');
 define('DB_HOST', '127.0.0.1');
-define('DB_NAME', 'login');
-define('DB_USER', 'testfirst');
-define('DB_PASS', 'rainbowheartdevbored');
+define('DB_NAME', 'yourdbname');
+define('DB_USER', 'yourdbuser');
+define('DB_PASS', 'yourdbpwd');
 
 /**
  * Configuration for: Hashing strength
